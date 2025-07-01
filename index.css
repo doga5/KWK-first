@@ -1,0 +1,27 @@
+body {
+    background-color:#f2e9e4;
+  }
+  
+  h1 {
+    color: #4a4e69;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #4a4e69;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #22223b;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+  }
