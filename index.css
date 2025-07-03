@@ -1,27 +1,64 @@
+/* Base styles */
 body {
-    background-color:#f2e9e4;
-  }
-  
-  h1 {
-    color: #4a4e69;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium';
-    font-size: 36px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+  background-color: #f2e9e4;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial', sans-serif;
+  color: #22223b;
+}
 
-  h2 {
-    color: #4a4e69;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium';
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+/* Container to center content and control width */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  p {
-    color: #22223b;
-    font-family: 'Franklin Gothic Medium';
-    font-size: 20px;
-  }
+/* Header styles */
+h1 {
+  color: #4a4e69;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #4a4e69;
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* Image styles */
+img {
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* List styles */
+ul {
+  list-style-type: square;
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #4a4e69;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
